@@ -53,10 +53,15 @@ Aplicarás:
 ## 5. Requisitos
 
 Usa esta lista para saber los requisitos mínimos del proyecto:
+- [ ] Se logra un archivo llamado index.html en el que se desarrollará la estructura de la página web, así como el texto y secciones en que se dividirá tu página.
+- [ ] Contiene un archivo style.css en el que se desarrollarán los estilos, fuentes y diseños de la página web.
+- [ ] El resultado es un clon de Google o un clon con un diseño perdonalizado.
 
 ### GENERAL
+Este proyecto fue realizado en dos sesiones de 3 horas cada una, todas avanzamos a la par y las dudas que se tuvieron fueron resueltas de la mejor manera por nuestras mentoras.
 
-Realizarse de manera individual
+Si tienes alguna duda sobre la realización de este proyecto, no dudes en escribirnos.
+
 
 ### UI
 - [ ] Aplicar en todo el sitio HTML semántico de estándar no.5 (HTML5).
@@ -64,4 +69,4 @@ Realizarse de manera individual
 - [ ] Sección `Header`, `main`, `footer`
 
 
-Happy coding!❤
+Suerte!❤
