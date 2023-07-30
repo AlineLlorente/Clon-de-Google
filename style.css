@@ -1,0 +1,203 @@
+* {
+    /* background-color: blueviolet; */
+    /*Modelo de caja (espaciados)*/
+    margin: 0px;
+    padding: 0px;
+
+    /*configuraciones letras*/
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    /*Modelo de caja (tamaños)*/
+    height: 1vh;
+}
+main {
+    /*Modelo de caja (tamaños)*/
+    height: 83vh;
+
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    /* height: auto; */
+    background: #f2f2f2;
+}
+
+header nav {
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    justify-content: flex-end;
+    padding: -28px -28px;
+    min-width: 1px;
+    }
+
+ul {
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    height: 0px;
+
+    /*configuración visual (no hayan puntitos)*/
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+li{
+    /*Modelo de caja (espaciados)*/
+    padding: 20px 10px;
+}
+
+/*Comportamiento del link el resto del tiempo*/
+a:link {
+    text-decoration: none;
+    /*colores*/
+    color:rgba(0,0,0,.87);
+}
+
+/*Comportamiento del link cuando el link fue visitado*/
+a:visited {
+    text-decoration: none;
+    /*colores*/
+    color:rgba(0,0,0,.87);
+}
+
+/*Comportamiento del link cuando el mouse está encima*/
+a:hover {
+    text-decoration: underline;
+}
+
+#nav-right-section{
+    /*Modelo de caja (espaciados)*/
+    padding: 0px 4px;
+    height: 15px;
+    padding-right: 15px;
+}
+
+#nav-left-section{
+    /*Modelo de caja (espaciados)*/
+    padding: 0px 3px;
+    height: 15px;
+}
+
+#perfil{
+    border-radius: 20px;
+}
+
+#footer-listas{
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    justify-content: space-evenly;
+    background: #f2f2f2;
+    display: flex; 
+    align-items: center;
+}
+
+.pais {
+    /*Modelo de caja (espaciados)*/
+    padding: 15px 30px;
+    color: #70757a;
+}
+
+
+#footer-listas ul li {
+    /*Modelo de caja (espaciados)*/
+    padding: 20px;
+    background: #f2f2f2;
+    justify-content: space-between
+    font-size: 14px; */
+    font-family: arial,sans-serif;
+    color: #1a0dab;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.pie{
+    border-bottom: 1px solid #dadce0;
+    }
+
+
+button {
+    /*Modelo de caja (espaciados)*/
+    padding: 0 16px;
+    margin: 11px 4px;
+    /*Modelo de caja (tamaños)*/
+    height: 36px;
+    /*Modelo de caja (borde)*/
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+
+    /*colores*/
+    background-color: #f8f9fa;
+    color: #3c4043;
+
+    /* estilo del puntero (felchita que solemos ver)*/
+    cursor: pointer;
+}
+
+button:hover{
+    /*Modelo de caja (borde)*/
+    border: 1px solid #dadce0;
+    /* Modelo de caja: sombras de la caja*/
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+
+    /*colores*/
+    background-color: #f8f9fa;
+    color: #202124;
+}
+
+#botones {
+    /*Modelo de caja (espaciados)*/
+    /* margin: 0px 0px 300px 0px; */
+    margin-bottom: 10%;
+}
+
+#seccion-buscador{
+    /*Modelo de caja (espaciados)*/
+    margin: 25px 0px;
+    padding: 5px 8px 0px 14px;
+
+    /*Modelo de caja (tamaños)*/
+    width: 555px;
+    min-height: 45px;
+
+    /*Modelo de caja (borde)*/
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    
+    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
+    display: flex;
+    justify-content: space-between;
+}
+
+#seccion-buscador:hover{
+    /* Modelo de caja: sombras de la caja*/
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+#seccion-buscador svg {
+    /*Modelo de caja (espaciados)*/
+    padding: 5px 7px;
+    width: 22px;
+}
+
+#buscador {
+    /*Modelo de caja (espaciados)*/
+    width: 80%;
+
+    /*configuración visual caja de texto (no visualizar bordes)*/
+    border: none;
+    outline: none;
+}
