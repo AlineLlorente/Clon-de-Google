@@ -90,14 +90,15 @@ a:hover {
     border-radius: 20px;
 }
 
+
 #footer-listas{
     /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
     display: flex;
     justify-content: space-evenly;
-    background: #f2f2f2;
-    display: flex; 
-    align-items: center;
+    color: #70757a;
 }
+
+
 
 .pais {
     /*Modelo de caja (espaciados)*/
@@ -108,20 +109,7 @@ a:hover {
 
 #footer-listas ul li {
     /*Modelo de caja (espaciados)*/
-    padding: 20px;
-    background: #f2f2f2;
-    justify-content: space-between
-    font-size: 14px; */
-    font-family: arial,sans-serif;
-    color: #1a0dab;
-    justify-content: space-evenly;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    cursor: pointer;
-    font-size: 14px;
-    border-bottom: 1px solid #dadce0;
+    padding: 15px;
 }
 
 .pie{
@@ -156,6 +144,7 @@ button:hover{
     /*colores*/
     background-color: #f8f9fa;
     color: #202124;
+
 }
 
 #botones {
@@ -201,3 +190,4 @@ button:hover{
     border: none;
     outline: none;
 }
+
