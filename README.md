@@ -52,7 +52,6 @@ Aplicarás:
 
 ## 5. Requisitos
 
-Usa esta lista para saber los requisitos mínimos del proyecto:
 - [ ] Se logra un archivo llamado index.html en el que se desarrollará la estructura de la página web, así como el texto y secciones en que se dividirá tu página.
 - [ ] Contiene un archivo style.css en el que se desarrollarán los estilos, fuentes y diseños de la página web.
 - [ ] El resultado es un clon de Google o un clon con un diseño perdonalizado.
