@@ -13,6 +13,7 @@ header {
     /*Modelo de caja (tamaños)*/
     height: 1vh;
 }
+
 main {
     /*Modelo de caja (tamaños)*/
     height: 83vh;
@@ -24,10 +25,13 @@ main {
     align-items: center;
 }
 
-footer {
-    /* height: auto; */
-    background: #f2f2f2;
+footer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(245, 245, 245);
 }
+
 
 header nav {
     /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
@@ -92,29 +96,28 @@ a:hover {
 
 
 #footer-listas{
-    /* Configuración de el contenedor padre (como se van a comportar los hijos)*/
     display: flex;
-    justify-content: space-evenly;
-    color: #70757a;
+    justify-content: space-between;
+    padding: 0px 50px;
+    cursor: pointer;
+    color: #616060;
 }
-
-
 
 .pais {
     /*Modelo de caja (espaciados)*/
-    padding: 15px 30px;
-    color: #70757a;
+    display: flex;
+    padding: 12px 35px;
+    border-bottom: 1px solid #dadce0;
+    color: #616060;
 }
 
 
 #footer-listas ul li {
     /*Modelo de caja (espaciados)*/
     padding: 15px;
+    background-color:rgb(245, 245, 245);
 }
 
-.pie{
-    border-bottom: 1px solid #dadce0;
-    }
 
 
 button {
@@ -123,6 +126,9 @@ button {
     margin: 11px 4px;
     /*Modelo de caja (tamaños)*/
     height: 36px;
+    min-width: 54px;
+    margin-bottom: 10%;
+    line-height: 27px;
     /*Modelo de caja (borde)*/
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -159,7 +165,7 @@ button:hover{
     padding: 5px 8px 0px 14px;
 
     /*Modelo de caja (tamaños)*/
-    width: 555px;
+    width: 625px;
     min-height: 45px;
 
     /*Modelo de caja (borde)*/
@@ -179,7 +185,7 @@ button:hover{
 #seccion-buscador svg {
     /*Modelo de caja (espaciados)*/
     padding: 5px 7px;
-    width: 22px;
+    width: 28px;
 }
 
 #buscador {
@@ -191,3 +197,17 @@ button:hover{
     outline: none;
 }
 
+#lupa{
+    cursor: auto;
+    opacity: 0.4;
+    height:4vh;
+}
+
+#voz{
+
+    cursor: pointer;
+}
+
+#escaner{
+    cursor: pointer;
+}
